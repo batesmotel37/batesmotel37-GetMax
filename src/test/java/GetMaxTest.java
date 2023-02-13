@@ -5,6 +5,7 @@ import org.junit.Test;
 
 public class GetMaxTest {
     public static GetMax gm;
+
     @BeforeClass
     public static void setUp(){
         gm = new GetMax();
@@ -40,3 +41,5 @@ public class GetMaxTest {
         Assert.assertEquals(expected, gm.max(input));
     }
 }
+
+
